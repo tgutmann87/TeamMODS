@@ -1,0 +1,155 @@
+header {
+	width: 100%;
+	
+	/*Background Image Modifications*/
+	background-color: black;
+	background: rgba(0, 0, 0, 0.5);
+	
+	/*Text Modifications*/
+	/*color:rgb(218,88,97);*/
+	color: rgb(231,62,71);
+	font-family: "georgia";
+}
+
+/*Controls the "Team MODS" portion of the header*/
+#header_title h1{
+	font-size: 5em; /*6.25 Originally*/
+	text-align:center;
+	text-shadow: 2px 2px 5px #FFFFFF;
+	line-height:.5;
+}
+/*Controls the "Welcome to" and "gaming" portion of the header*/
+#header_title h3{
+	font-size:2.5em;
+	text-decoration: underline;
+	text-align: left;
+}
+
+nav {
+	padding-bottom:15px;
+	text-align: center;
+}
+
+#nav_bar ul{
+	list-style-type: none;
+}
+
+#nav_bar li{
+	/*Displaying the Nav Bar as horizontal*/
+	display: inline;
+}
+
+#nav_bar a{
+	/*General Space Modifications*/
+	padding:0em 1em;
+	margin-right:5px;
+	
+	/*Text Modifications*/
+	font-family: "impact";
+	font-size: 1.25em;
+	color: white;
+}
+
+#nav_bar a:hover{
+	/*Color Modification*/
+	background-color:red;
+	
+	/*Border Modification*/
+	box-shadow: 7px 1px 7px red;
+}
+
+#nav_bar a:active{
+	/*Background and Text Color*/
+	background-color:green;
+	color:black;
+	
+	/*Button Modifications*/
+	box-shadow: 7px 1px 7px green;
+}
+
+body {
+	background-color:black;
+	background-image: url("../images/Black_bg.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+#OrderPane {
+	background: rgba(0,0,0,.35);
+	border-radius: 10px;
+
+	margin-top: 1em;
+}
+
+#orderHeader{
+	color: gray;
+	font-size: 3.5em;
+	font-weight: bold;
+	text-decoration: underline;
+	
+	padding-left: 1.25em;
+}
+
+#Order{
+	color: gray;
+	font-size: 1.25em;
+	text-align: left;
+	
+	padding-top: 1.25em;
+	padding-left: 3em;
+}
+
+#skinImage img{
+	height:200px;
+	width: 200px;
+	
+	padding-top: 1em;
+	padding-left:2em;
+}
+
+#buttonImage img{
+	height:200px;
+	width: 200px;
+	
+	padding-top: 1em;
+	padding-left:2em;
+}
+
+#directions {
+	width: 50%;
+	
+	color: white;
+	text-align: center;
+	
+	padding-right: 4em;
+}
+
+#dirHeader{
+	font-size: 4em;
+	font-weight: bold;
+	text-decoration: underline;
+	
+	margin-bottom: .5em;
+}
+
+#dirHeader2{
+	font-size: 2.5em;
+	font-weight: bold;
+	text-decoration: underline;
+	
+	margin-bottom: .5em;
+}
+
+#directions li{
+	font-size: 1.75em;
+	padding-bottom: .5em;
+	
+	text-align: left;
+}
+
+footer {
+	/*height:40px;*/
+	background: rgba(231,62,71,.5);
+	border-radius: 10px;
+	text-align: center;
+}

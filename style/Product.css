@@ -1,0 +1,139 @@
+header {
+	width: 1920px;
+	
+	/*Background Image Modifications*/
+	background-color: black;
+	background: rgba(0, 0, 0, 0.5);
+	
+	/*Text Modifications*/
+	color: rgb(231,62,71);
+	font-family: "georgia";
+}
+
+/*Controls the "Team MODS" portion of the header*/
+#header_title h1{
+	font-size: 5em; /*6.25 Originally*/
+	text-align:center;
+	text-shadow: 2px 2px 5px #FFFFFF;
+	line-height:.5;
+}
+/*Controls the "Welcome to" and "gaming" portion of the header*/
+#header_title h3{
+	font-size:2.5em;
+	text-decoration: underline;
+	text-align: left;
+}
+
+nav {
+	padding-bottom:15px;
+	text-align: center;
+}
+
+#nav_bar ul{
+	list-style-type: none;
+}
+
+#nav_bar li{
+	/*Displaying the Nav Bar as horizontal*/
+	display: inline;
+}
+
+#nav_bar a{
+	/*General Space Modifications*/
+	padding:0em 1em;
+	margin-right:5px;
+	
+	/*Text Modifications*/
+	font-family: "impact";
+	font-size: 1.25em;
+	color: white;
+}
+
+#nav_bar a:hover{
+	/*Color Modification*/
+	background-color:red;
+	
+	/*Border Modification*/
+	box-shadow: 7px 1px 7px red;
+}
+
+#nav_bar a:active{
+	/*Background and Text Color*/
+	background-color:green;
+	color:black;
+	
+	/*Button Modifications*/
+	box-shadow: 7px 1px 7px green;
+}
+
+body {
+	width: 100%;
+	background-color:black;
+	background-image: url("../images/Black_bg.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+#introHeader{
+	width: 1100px;
+	
+	text-align: left;
+	text-shadow: 4px 4px 3px #000000;
+	font-size: 3.5em;
+	color: red;
+	
+	margin-top: 1em;
+	margin-bottom:.5em;
+	margin-left: .5em;
+	
+}
+
+#introText{
+	width: 1800px;
+	
+	text-align: left;
+	text-shadow: 2px 2px 3px #000000;
+	font-size: 1.75em;
+	color: white;
+	
+	margin-left: 2em;
+}
+
+table{
+	border-spacing: 5em 3em;
+}
+
+h4{
+	color: white;
+	font-size: 4em;
+	text-decoration: underline;
+	text-shadow: 3px 3px 3px #000000;
+	
+	margin-bottom: 0em;
+	margin-left: 800px;
+}
+
+#products td{
+	text-align:center;
+	font-size: 1em;
+	color: gray;
+}
+
+#productName{
+	font-size: 1.25em;
+}
+
+#inStock{
+	color: green;
+}
+
+#outStock{
+	color:red;
+}
+
+footer {
+	width: 1920px;
+	background: rgba(231,62,71,.5);
+	border-radius: 10px;
+	text-align: center;
+}

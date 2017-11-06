@@ -1,0 +1,168 @@
+header {
+	width: 100%;
+	
+	/*Background Image Modifications*/
+	background-color: black;
+	background: rgba(0, 0, 0, 0.5);
+	
+	/*Text Modifications*/
+	/*color:rgb(218,88,97);*/
+	color: rgb(231,62,71);
+	font-family: "georgia";
+}
+
+/*Controls the "Team MODS" portion of the header*/
+#header_title h1{
+	font-size: 5em; /*6.25 Originally*/
+	text-align:center;
+	text-shadow: 2px 2px 5px #FFFFFF;
+	line-height:.5;
+}
+/*Controls the "Welcome to" and "gaming" portion of the header*/
+#header_title h3{
+	font-size:2.5em;
+	text-decoration: underline;
+	text-align: left;
+}
+
+nav {
+	padding-bottom:15px;
+	text-align: center;
+}
+
+#nav_bar ul{
+	list-style-type: none;
+}
+
+#nav_bar li{
+	/*Displaying the Nav Bar as horizontal*/
+	display: inline;
+}
+
+#nav_bar a{
+	/*General Space Modifications*/
+	padding:0em 1em;
+	margin-right:5px;
+	
+	/*Text Modifications*/
+	font-family: "impact";
+	font-size: 1.25em;
+	color: white;
+}
+
+#nav_bar a:hover{
+	/*Color Modification*/
+	background-color:red;
+	
+	/*Border Modification*/
+	box-shadow: 7px 1px 7px red;
+}
+
+#nav_bar a:active{
+	/*Background and Text Color*/
+	background-color:green;
+	color:black;
+	
+	/*Button Modifications*/
+	box-shadow: 7px 1px 7px green;
+}
+
+body {
+	background-color:black;
+	background-image: url("../images/Black_bg.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+#welcomeMsg{
+	color: gray;
+	text-align: center;
+	font-size: 2.5em;
+	font-weight: bold;
+	
+	margin: 1.25em 0em;
+}
+
+#welcomeMsg a{
+	color:rgb(231,62,71);
+}
+
+#largeNav{
+	margin:auto;
+	
+	border-spacing: 2em;
+}
+
+#largeNav td{
+	position: relative;
+}
+
+#largeNav p{
+	position: absolute;
+	top: 27%;
+	right: 27%;
+	
+	color: white;
+	text-align: center;
+	text-shadow: 4px 5px 2px #000000;
+	font-size: 3em;
+	font-weight: bold;
+}
+
+#largeNav img{
+	border-radius: 200px;
+	box-shadow: 0px 0px 25px black;
+}
+
+#largeNav img:hover{
+	animation: pulse 2s infinite;
+}
+
+@-webkit-keyframes pulse{
+    0%  { box-shadow: 0px 0px 5px white;}
+    5%  { box-shadow: 0px 0px 10px white;}
+    10% { box-shadow: 0px 0px 15px white;}
+	15% { box-shadow: 0px 0px 20px white;}
+    20% { box-shadow: 0px 0px 25px white;}
+    25% { box-shadow: 0px 0px 30px white;}
+	30% { box-shadow: 0px 0px 35px white;}
+	35% { box-shadow: 0px 0px 40px white;}
+    40% { box-shadow: 0px 0px 45px white;}
+    45% { box-shadow: 0px 0px 50px white;}
+	50% { box-shadow: 0px 0px 45px white;}
+	55% { box-shadow: 0px 0px 40px white;}
+	60% { box-shadow: 0px 0px 35px white;}
+	65% { box-shadow: 0px 0px 30px white;}
+	70% { box-shadow: 0px 0px 25px white;}
+	75% { box-shadow: 0px 0px 20px white;}
+	80% { box-shadow: 0px 0px 15px white;}
+	85% { box-shadow: 0px 0px 10px white;}
+	90% { box-shadow: 0px 0px 5px white; }
+	95% { box-shadow: 0px 0px 0px white; }
+	100%{ box-shadow: 0px 0px 3px white; }
+}
+
+#aboutUs{
+	width:50%;
+	
+	margin:auto;
+	
+	color:gray;
+	font-size:1.25em;
+	text-shadow: 3px 3px 3px #000000;
+}
+
+#aboutUsHeader{
+	color:red;
+	font-size:1.25em;
+	font-weight:bold;
+	text-decoration:underline;
+	margin-bottom:0em;
+}
+
+footer {
+	/*height:40px;*/
+	background: rgba(231,62,71,.5);
+	border-radius: 10px;
+	text-align: center;
+}
